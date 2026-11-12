@@ -1,0 +1,13 @@
+vendas_angola:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: postgres
+      user: dw_user
+      password: dw_pass
+      port: 5432
+      dbname: vendas_dw
+      schema: public
+      threads: 4
+      keepalives_idle: 0

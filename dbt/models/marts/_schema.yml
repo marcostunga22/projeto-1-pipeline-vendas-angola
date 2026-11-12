@@ -1,0 +1,58 @@
+version: 2
+
+models:
+  - name: dim_cliente
+    description: "Dimensão de clientes"
+    columns:
+      - name: cliente_id
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_produto
+    description: "Dimensão de produtos"
+    columns:
+      - name: produto_id
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_data
+    description: "Dimensão de calendário baseada nas datas de venda"
+    columns:
+      - name: data
+        tests:
+          - unique
+          - not_null
+
+  - name: fct_vendas
+    description: "Tabela facto de vendas (grain: 1 linha = 1 venda)"
+    columns:
+      - name: venda_id
+        tests:
+          - unique
+          - not_null
+      - name: cliente_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_cliente')
+              field: cliente_id
+      - name: produto_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_produto')
+              field: produto_id
+      - name: valor_liquido
+        tests:
+          - not_null
+
+  - name: mart_vendas_por_provincia
+    description: "Agregação de vendas por província angolana"
+
+  - name: mart_vendas_por_categoria
+    description: "Agregação de vendas por categoria de produto"
+
+  - name: mart_vendas_mensal
+    description: "Série temporal mensal de vendas"

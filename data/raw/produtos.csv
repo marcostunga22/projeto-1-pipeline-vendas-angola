@@ -1,0 +1,30 @@
+produto_id,nome_produto,categoria,preco_unitario,unidade,fornecedor_principal
+PRD-001,Gasóleo,Combustíveis,1062.48,un,Construtora Nacional
+PRD-002,Gasolina Super,Combustíveis,1037.46,un,CIF
+PRD-003,Petróleo Iluminante,Combustíveis,773.2,un,CIF
+PRD-004,Óleo Lubrificante 20W50,Combustíveis,5434.71,saco/kg/L,Petromar
+PRD-005,Cimento Portland 50kg,Materiais de Construção,5537.71,saco/kg/L,Local Agro
+PRD-006,Ferro de Construção 12mm,Materiais de Construção,18749.8,un,Construtora Nacional
+PRD-007,Tijolo Cerâmico,Materiais de Construção,139.14,un,Sonangol
+PRD-008,Areia de Construção (m³),Materiais de Construção,12046.12,saco/kg/L,Local Agro
+PRD-009,Brita (m³),Materiais de Construção,21617.27,saco/kg/L,Cuca
+PRD-010,Tinta Acrílica 18L,Materiais de Construção,35641.61,saco/kg/L,Local Agro
+PRD-011,Milho Amarelo (saco 50kg),Produtos Agrícolas,9812.49,saco/kg/L,Sonangol
+PRD-012,Feijão Catete (saco 25kg),Produtos Agrícolas,16735.62,saco/kg/L,Construtora Nacional
+PRD-013,Arroz Agulha (saco 25kg),Produtos Agrícolas,17054.17,saco/kg/L,Construtora Nacional
+PRD-014,Farinha de Mandioca (saco 50kg),Produtos Agrícolas,11896.62,saco/kg/L,Refriango
+PRD-015,Café Robusta (kg),Produtos Agrícolas,3500.37,saco/kg/L,Importadora Atlântico
+PRD-016,Amendoim (saco 25kg),Produtos Agrícolas,11396.42,saco/kg/L,Sonangol
+PRD-017,Óleo Alimentar 5L,Bens de Consumo,4897.95,saco/kg/L,Petromar
+PRD-018,Açúcar Refinado 1kg,Bens de Consumo,926.35,saco/kg/L,Importadora Atlântico
+PRD-019,Sabão em Pó 2kg,Bens de Consumo,2260.61,saco/kg/L,Construtora Nacional
+PRD-020,Água Mineral 20L,Bens de Consumo,1625.7,saco/kg/L,Construtora Nacional
+PRD-021,Refrigerante 2L,Bens de Consumo,980.28,saco/kg/L,Construtora Nacional
+PRD-022,Cerveja Nacional (cx 24),Bens de Consumo,9583.43,un,Importadora Atlântico
+PRD-023,Leite em Pó 400g,Bens de Consumo,2354.69,saco/kg/L,Petromar
+PRD-024,Massas Alimentícias 500g,Bens de Consumo,679.69,un,Importadora Atlântico
+PRD-025,Gerador 5kVA,Equipamentos,470269.87,un,CIF
+PRD-026,Bomba de Água 1HP,Equipamentos,94732.66,un,Construtora Nacional
+PRD-027,Motosserra Profissional,Equipamentos,121198.13,un,Construtora Nacional
+PRD-028,Soldadora Elétrica,Equipamentos,176584.09,un,Importadora Atlântico
+PRD-029,Compressor de Ar,Equipamentos,86198.17,un,Cuca
